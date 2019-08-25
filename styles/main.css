@@ -1,6 +1,16 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
 hr
 {
-    border: 1px solid black;
+    border: 3px groove royalblue;
+    border-radius: 5px;
+}
+.immyownmanyo
+{
+    border: 3px solid black;
+    border-radius: 5px;
 }
 img
 {
@@ -24,4 +34,12 @@ ol
 {
     font-size: 15px;
     font-weight: normal;
+}
+.noticeme
+{
+    font-size: 66px;
+}
+.navtext
+{
+    font-size: 69px;
 }
