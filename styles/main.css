@@ -43,3 +43,14 @@ ol
 {
     font-size: 69px;
 }
+.mobile-yt{
+    position: relative;
+    width: 100%;
+  }
+  .mobile-yt iframe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
