@@ -53,10 +53,17 @@ ol
 .mobile-yt {
     position: relative;
     padding-top: 56.25%; /* ratio of the video */
-  }
+}
     .mobile-yt iframe {
       position: absolute;
       top: 0;
       width: 100% !important;
       height: 100% !important;
-    }
+}
+.yt-box 
+{
+    text-align:center;
+    width: 1000px;
+    max-width: 100%;
+    max-height: 100%;
+}
