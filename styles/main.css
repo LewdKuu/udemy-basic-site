@@ -50,10 +50,13 @@ ol
     text-align: center;
     font-size: 69px;
 }
-.mobile-yt iframe, .mobile-yt object, .mobile-yt embed {
-    align-self: center;
-    position: absolute; 
-    top: 0; left: 0; 
-    width: 50%; 
-    height: 50%;
-}
+.mobile-yt {
+    position: relative;
+    padding-top: 56.25%; /* ratio of the video */
+  }
+    .mobile-yt iframe {
+      position: absolute;
+      top: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
